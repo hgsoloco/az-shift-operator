@@ -1,0 +1,27 @@
+# permissions for end users to view availabilityzoneshifts.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: availabilityzoneshift-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: az-shift-operator
+    app.kubernetes.io/part-of: az-shift-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: availabilityzoneshift-viewer-role
+rules:
+- apiGroups:
+  - zonalshiftmgr.keikoproj.io
+  resources:
+  - availabilityzoneshifts
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - zonalshiftmgr.keikoproj.io
+  resources:
+  - availabilityzoneshifts/status
+  verbs:
+  - get

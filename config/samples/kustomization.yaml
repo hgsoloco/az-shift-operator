@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- zonalshiftmgr_v1_availabilityzoneshift.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

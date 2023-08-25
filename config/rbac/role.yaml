@@ -1,0 +1,32 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: manager-role
+rules:
+- apiGroups:
+  - zonalshiftmgr.keikoproj.io
+  resources:
+  - availabilityzoneshifts
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - zonalshiftmgr.keikoproj.io
+  resources:
+  - availabilityzoneshifts/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - zonalshiftmgr.keikoproj.io
+  resources:
+  - availabilityzoneshifts/status
+  verbs:
+  - get
+  - patch
+  - update
