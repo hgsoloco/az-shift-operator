@@ -1,6 +1,7 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Pallinder/go-randomdata v1.2.0 h1:DZ41wBchNRb/0GfsePLiSwb0PHZmT67XY00lCDlaYPg=
+github.com/aws/karpenter v0.29.2/go.mod h1:djD7u2FbiUoeZga4J0Gg3j2oovLnGR3lL2NMPTN7sbY=
 github.com/aws/karpenter-core v0.29.2 h1:iS8bjC1911LA459gLEl7Jkr0QRbyKMeXB2b4NEVGQIE=
 github.com/aws/karpenter-core v0.29.2/go.mod h1:GzFITbd2ijUiV4UJ0wox4RJQsFD2ncyJYtLmUlYnmJY=
 github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8=

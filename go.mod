@@ -3,15 +3,16 @@ module github.com/hgsoloco/az-shift-operator
 go 1.20
 
 require (
-	github.com/aws/karpenter-core v0.29.2
 	github.com/onsi/ginkgo/v2 v2.11.0
 	github.com/onsi/gomega v1.27.8
 	k8s.io/apimachinery v0.27.2
 	k8s.io/client-go v0.27.2
 	sigs.k8s.io/controller-runtime v0.15.0
+	github.com/aws/karpenter v0.29.2
 )
 
 require (
+	github.com/aws/karpenter-core v0.29.2
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect

@@ -9,4 +9,4 @@ metadata:
     app.kubernetes.io/created-by: az-shift-operator
   name: availabilityzoneshift-sample
 spec:
-  # TODO(user): Add fields here
+  impairedAz: us-east-1a
