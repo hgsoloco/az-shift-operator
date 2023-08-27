@@ -9,4 +9,4 @@ metadata:
     app.kubernetes.io/created-by: az-shift-operator
   name: availabilityzoneshift-sample
 spec:
-  impairedAz: us-east-1a
+  impairedAz: us-east-1b
